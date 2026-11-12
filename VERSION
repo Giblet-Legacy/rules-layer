@@ -1,0 +1,5 @@
+# VERSION — P12 Rules (rules-layer)
+# Function: the current release version of this layer. Advances only on freeze.
+# 1.0.0 — P12 frozen. Tests pass (12/12).
+
+1.0.0
