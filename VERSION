@@ -1,5 +1,7 @@
 # VERSION — P12 Rules (rules-layer)
 # Function: the current release version of this layer. Advances only on freeze.
 # 1.0.0 — P12 frozen. Tests pass (12/12).
+# 2.0.0 — rules_v2.py hardened layer frozen (SPEC_V2.md). v1 12/12, v2 31/31.
+#         rules.py unchanged.
 
-1.0.0
+2.0.0

@@ -12,4 +12,11 @@ Depends:  P1 Envelope v2, P2 Sign
 Consumed: P13 DataCube, P15 HAL, The Cockpit
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
-Status:   0.0.0-dev (in build, pre-freeze)
+Status:   2.0.0 (v1 frozen; v2 hardened layer frozen)
+
+Use:
+    New code imports `rules_v2` (SPEC_V2.md). `rules.py` is the frozen
+    v1.0.0 primitive (SPEC.md) and is never edited.
+
+Test:
+    pytest -q        # 43 passed, from any working directory
