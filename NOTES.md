@@ -3,7 +3,8 @@
 NOTES.md — open questions, divergences and decisions for P12 Rules.
 
 ## Open questions
-- (none)
+- **Q1 — Freeze rules_v3 at 3.0.0?** Built and green on the laptop
+  (48/48). Not yet run on the S24. Raised 2026-11-13. Owner: James.
 
 ## Divergences from SPEC.md v1.0.0 (found in laptop audit, 2026-11-12)
 All closed in rules_v2.py (SPEC_V2.md). rules.py is frozen and unedited.
@@ -24,6 +25,10 @@ All closed in rules_v2.py (SPEC_V2.md). rules.py is frozen and unedited.
   Closed in rules_v2.py (SPEC_V2 §2.8).
 
 ## Decisions
+- 2026-11-13 — v3 (SPEC_V3.md) adopts the Echo's JSON matchers as
+  the stack's declarative rule format, fail-closed on unknown keys.
+  Decided by the VS Code AI on James's delegation ("fix all 11
+  issues"). The "serialise rules" item below now has a home.
 - Engine.evaluate verifies the capsule signature BEFORE firing any
   rules. This prevents firing rules on tampered capsules.
 - Empty result on invalid signature (rather than raise) matches the

@@ -2,6 +2,22 @@
 
 CHANGELOG.md — build history for P12 Rules, latest entry at top.
 
+## [Unreleased]
+
+### Good
+
+- `SPEC_V3.md`, `test_rules_v3.py` (5 tests, run red first) and `rules_v3.py`: a declarative rule format that can live in a JSON file (the Echo's three matchers, adopted), validated fail-closed, compiled onto the v2 engine. `preview` runs through the real v2 engine with `dry_run=True`. 48/48 pass.
+- Closes the gap where no two consumers could share a rule set and the Echo previewed "P12" without using P12.
+- Built on James's delegation ("fix all 11 issues"). Not frozen (NOTES Q1).
+
+### Bad
+
+- (none)
+
+### Ugly
+
+- Only three matchers exist (subject, face, object substring). Richer predicates need a later SPEC version; the loader refuses anything else rather than guess.
+
 ## [v2.0.0] — 2026-11-12
 
 ### Good
