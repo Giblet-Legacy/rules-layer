@@ -4,4 +4,6 @@
 # 2.0.0 — rules_v2.py hardened layer frozen (SPEC_V2.md). v1 12/12, v2 31/31.
 #         rules.py unchanged.
 
-2.0.0
+# 3.0.0 — rules_v3.py declarative layer frozen (SPEC_V3.md). Tests pass (48/48).
+
+3.0.0
