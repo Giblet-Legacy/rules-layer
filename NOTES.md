@@ -3,7 +3,7 @@
 NOTES.md — open questions, divergences and decisions for P12 Rules.
 
 ## Open questions
-- **Q1 — Freeze rules_v3 at 3.0.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; the S24 run is still to be confirmed. Built and green on the laptop
+- **Q1 — Freeze rules_v3 at 3.0.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; confirmed on the S24 by James, 2026-11-13. Built and green on the laptop
   (48/48). Not yet run on the S24. Raised 2026-11-13. Owner: James.
 
 ## Divergences from SPEC.md v1.0.0 (found in laptop audit, 2026-11-12)
